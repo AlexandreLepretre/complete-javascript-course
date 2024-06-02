@@ -58,7 +58,6 @@ job = 'student';
 
 lastName = 'Leprêtre';
 console.log(lastName);
-*/
 
 const now = 2037;
 const ageAlexandre = now - 1988;
@@ -87,3 +86,18 @@ console.log(ageLianne >= 18);
 const isFullAge = ageLianne >= 18;
 
 console.log(now - 1988 > now - 2018);
+*/
+
+const now = 2037;
+const ageAlexandre = now - 1988;
+const ageLianne = now - 2018;
+
+console.log(now - 1988 > now - 2018);
+
+console.log(25 - 10 - 5);
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10, x = 10
+console.log(x, y);
+
+const averageAge = (ageAlexandre + ageLianne) / 2
+console.log(ageAlexandre, ageLianne, averageAge);
